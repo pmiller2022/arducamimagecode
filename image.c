@@ -34,7 +34,7 @@ void rand_frames(uint8_t f1[HEIGHT][WIDTH], uint8_t f2[HEIGHT][WIDTH]){
 int main(void) {
     uint8_t frame1[HEIGHT][WIDTH];
     uint8_t frame2[HEIGHT][WIDTH];
-    bool pixel_thres[HEIGHT][WIDTH];
+    uint8_t pixel_thres[HEIGHT][WIDTH];
 
     // Replace with camera stuff
     rand_frames(frame1, frame2);
